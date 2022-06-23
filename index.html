@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.6.0/slick/slick.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+
+    <title>Tatoo!</title>
+  </head>
+  <body>
+
+
+    <a class="burger-menu d-sm-block d-md-none" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+
+    <div class="menu-mobile ">
+      <a class="close-menu" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+      <ul>
+        <li class="current"><a href="#home">Accueil</a></li>
+        <li><a href="#skills">A propos</a></li>
+        <li><a href="#team">L'équipe</a></li>
+        <li><a href="#devise">Notre devise</a></li>
+        <li><a href="#folio">Folio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    
+      <header class="d-none d-sm-block"> <!-- Pour cacher en dessous de small -->
+      <nav id="menu">
+        <ul>
+          <li class="current"> <a  href="#home">Accueil</a></li>
+          <li> <a href="#skills">A propos</a></li>
+          <li> <a href="#team">L'équipe</a></li>
+          <li> <a href="#devise">Notre devise</a></li>
+          <li> <a href="#folio">Folio</a></li>
+          <li> <a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+<!--? Section home -->
+    <section id="home" data-speed ="0.2" data-parallax="scroll" data-image-src="img/bg-home.jpg"> <!-- parallax -->
+      <h1 class="logo">TatOO!</h1>
+      <a class="go animated infinite pulse" href="#"> <i class="fas fa-angle-down"></i></a> <!-- plugin animate avec ajout class -->
+    </section>
+
+
+
+<!--? Section a propos -->
+    <section id="skills">
+      <h1 data-aos="fade-up">A propos</h1>
+      <div class="container">  <!--! Création container -->
+
+      <div class="row"> <!--! Création d'une ligne -->
+        <div class="col-md-4 col-sm-6" data-aos="zoom-in"><!--! Création d'une colonne md = bureau --> 
+          <div class="icon"><i class="far fa-comments"></i></div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quis tempora quae et ratione eaque. Assumenda ratione voluptates iusto pariatur. Sequi reprehenderit explicabo deserunt rerum debitis adipisci tempore assumenda harum?</p>
+        </div>
+<!-- zoom in plugins aos  -->
+        <div class="col-md-4 col-sm-6"data-aos="zoom-in" ><!--! Création colonne sm = small -->
+          <div class="icon"><i class="far fa-star"></i></div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quis tempora quae et ratione eaque. Assumenda ratione voluptates iusto pariatur. Sequi reprehenderit explicabo deserunt rerum debitis adipisci tempore assumenda harum?</p>
+        </div>
+
+        <div class="col-md-4 col-sm-12 last-skils" data-aos="zoom-in"><!--! Création d'une colonne md = bureau -->
+          <div class="icon"><i class="far fa-smile"></i></div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quis tempora quae et ratione eaque. Assumenda ratione voluptates iusto pariatur. Sequi reprehenderit explicabo deserunt rerum debitis adipisci tempore assumenda harum?</p>
+        </div>
+      </div>
+      <div class="text-center mTop50"> <!-- permet de center le texte avec bootstrap -->
+        <a data-aos="fade-up"class="btn" href="mailto:alexis7736o@hotmail.fr&subject=Demande d'information du site de tatoo">Contactez-nous </a>
+      </div>
+    </div>
+      
+    </section>
+
+    <!--? Section team -->
+
+    <section id="team">
+      <h1 data-aos="fade-up">Notre équipe <span>de super tatoueuses</span></h1>
+
+      <div class="container">
+
+        <div class="row"> 
+          <div class="col-md-3 col-6"data-aos="fade-right"> <!-- col-6 = xs -->
+            <div class="card card-01"> <!-- div class card bootstrap -->
+              <h2>Julie</h2>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-6" data-aos="fade-up">
+            <div class="card card-02"> 
+              <h2>Juliette</h2>
+            </div>
+          </div>
+   
+          <div class="col-md-3 col-6" data-aos="fade-up">
+            <div class="card card-03"> 
+              <h2>Jane</h2>
+            </div>
+          </div>
+   
+          <div class="col-md-3 col-6" data-aos="fade-left">
+            <div class="card card-04"> 
+              <h2>Julia</h2>
+            </div>
+          </div>         
+          </div>
+      </div>
+    </div>
+    </section>
+
+        <!--? Section Devise -->
+
+    <section id="devise" data-speed ="0.2" data-parallax="scroll" data-image-src="img/banner.jpg">
+      <div class="container">
+        <p data-aos="zoom-in">" Le tatouage est avant tout une passion. "</p>
+      </div>
+
+    </section>
+    <!--? Section Folio -->
+
+    <section id="folio">
+      <div class="container">
+        <h1>Nos OEUVRES <b> d'arts </b></h1>
+        <div class="row slider"> <!--  class slider pour plugin -->
+          <!-- class img-fluid bootstrap qui prend 100% de la colonne -->
+          <div class="col-md-4">
+            <a data-fancybox="gallery" data-caption="Ma description" href="img/Oeuvres/oeuvre01.jpg"><img class="img-fluid" src="img/Oeuvres/oeuvre01S.jpg"></a>
+          </div>
+          <div class="col-md-4">
+            <a data-fancybox="gallery" href="img/Oeuvres/oeuvre02.jpg"><img class="img-fluid" src="img/Oeuvres/oeuvre02S.jpg"></a>
+          </div>
+          <div class="col-md-4">
+            <a data-fancybox="gallery" href="img/Oeuvres/oeuvre03.jpg"><img class="img-fluid" src="img/Oeuvres/oeuvre03S.jpg"></a>
+          </div>
+          <div class="col-md-4">
+            <a data-fancybox="gallery" href="img/Oeuvres/oeuvre04.jpg"><img class="img-fluid" src="img/Oeuvres/oeuvre04S.jpg"></a>
+          </div>
+          <div class="col-md-4">
+            <a data-fancybox="gallery" href="img/Oeuvres/oeuvre05.jpg"><img class="img-fluid" src="img/Oeuvres/oeuvre05S.jpg"></a>
+          </div>
+
+          <div class="col-md-4">
+            <a data-fancybox="gallery" href="img/Oeuvres/oeuvre06.jpg"><img class="img-fluid" src="img/Oeuvres/oeuvre06S.jpg"></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<!--? Test citation -->
+<section class="inspi">
+
+<div class="container h-100">
+  
+  <div class="row align-items-center justify-content-center h-100">
+    
+    <div class="col-md-10 col-lg-6 ">
+      <div class="cita">
+        <div id="citation" class="text-center">
+          La vie est un mystère qu'il faut vivre, et non un problème à résoudre.
+        </div>
+        <hr style="height:2px;border-width:0;color:black;background-color:black">
+        <div id="auteur" class="text-center">
+          Gandhi
+        </div>
+      </div>
+      
+      <div id="nouveau" class="mt-2 text-center font-weight-bold text-uppercase">
+        Nouvelle citation
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+</section>
+
+
+    <!--? footer Contact -->
+
+    <footer id="contact">
+      <div class="container">
+        <div class="text-center" data-aos="zoom-in">
+          <i class="far fa-envelope"></i>     
+        </div>
+
+        <div class="text-center contact-email"data-aos="fade-up">
+          <a href="mailto:alexisfavennec@gmail.fr">alexisfavennec@gmail.fr</a>
+          <p class="tel">Tél : 06.00.00.00.00</p>
+        </div>
+
+        <div class="text-center contact-icons">
+          <a href="#"><i class="fab fa-facebook-square"></i> </a>
+          <a href="#"><i class="fab fa-twitter-square"></i> </a>
+          <a href="#"><i class="fab fa-google-plus"></i> </a>
+        </div>
+        <!-- Copyright et mentions légales -->
+        <div class="row contact-infos ">
+          <div class="col-6"> <!-- De la version bureau a mobile j'aurai toujours 2 col -->
+            ©2021 Alexis Favennec
+          </div>
+
+          <div class="col-6 text-right">
+            <a  data-toggle="modal" data-target="#modalMentions" href="#">Mentions légales</a>  <!-- toggle = type évenelebt - target = modal a ouvrir --> 
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <div class="modal fade" id="modalMentions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3>Mentions légales</h3>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget sodales sem, at tincidunt dui. Nunc eu lobortis magna. Suspendisse potenti. Ut consectetur massa ut sem aliquet pharetra vel ut lectus. Integer auctor dui sed est ultrices, in malesuada dolor condimentum. Nam porttitor sollicitudin ante at viverra. Ut vehicula neque sem, in eleifend magna commodo in. Donec tempor massa sed mi commodo ultricies.</p>
+            <p>Ut scelerisque vel massa a porta. Aenean diam velit, rutrum a orci in, faucibus euismod dui. Nulla convallis lacinia dolor, vitae laoreet elit viverra ac. Suspendisse pharetra euismod lorem, eget elementum augue vehicula quis. Aliquam vehicula ex dolor, bibendum lacinia lectus suscipit in. Praesent eget condimentum lorem. Maecenas pharetra vitae massa ut tempus. Aliquam sagittis lectus augue, id sollicitudin mi varius eu. Sed consequat, risus molestie pulvinar scelerisque, felis sapien vulputate urna, ut volutpat sem nulla quis nibh. Donec eget convallis velit. Nulla in arcu nisl.</p>
+            <p>In dignissim lacus imperdiet nisl egestas fringilla. Etiam ac odio velit. Maecenas efficitur ut tellus et congue. Mauris auctor augue et leo pretium semper. Quisque quis rhoncus lectus. Nunc ultrices maximus turpis. Curabitur nisi urna, fringilla et scelerisque vel, faucibus id risus. Etiam elementum sem ut elit vehicula auctor. Fusce tincidunt accumsan eros, sed molestie felis lobortis nec. Aliquam semper sapien bibendum molestie auctor. Aenean erat felis, vestibulum id fringilla vitae, venenatis ut ipsum. Phasellus viverra massa eu mattis interdum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/tatoo.js"></script>
+  <script src="js/parallax.js"></script>
+  <script  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.6.0/slick/slick.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/tilt.js"></script>
+  <script src="js/citationajax.js"></script>
+
+  <script> AOS.init ({ delay: 100}); </script> <!-- plugins aos pour animation en parametre un délai si besoin -->
+</html>
